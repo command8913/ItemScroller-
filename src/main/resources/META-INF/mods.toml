@@ -1,0 +1,21 @@
+modLoader="javafml" #
+loaderVersion="[36,)"
+license="All Rights Reserved"
+[[mods]]
+modId="itemscroller"
+version="1.16.5"
+displayName="ItemScroller"
+authors="command8913"
+description='''мод позволяет быстро перемещать предметы по инвенторю и не только, для использования .help'''
+[[dependencies.examplemod]]
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.examplemod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5,1.17)"
+ordering="NONE"
+side="BOTH"
